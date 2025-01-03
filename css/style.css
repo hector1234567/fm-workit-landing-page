@@ -93,11 +93,12 @@ body {
 }
 
 .header {
-  color: #ffffff;
+  color: #fcf8ff;
   min-height: 100dvh;
   background-image: url("/assets/images/bg-pattern-1.svg"), url("/assets/images/bg-pattern-2.svg"), radial-gradient(210% 160% at top, #24053e 0%, #24053e 50%, transparent 50.1%);
   background-position: -4% 30%, 102% 50%, top;
   background-repeat: no-repeat;
+  background-color: #fcf8ff;
 }
 @media screen and (max-width: 1185px) {
   .header {
@@ -147,8 +148,9 @@ body {
   display: flex;
   justify-content: center;
   gap: 3.2rem;
-  margin-bottom: 14.4rem;
-  margin-top: 8.8rem;
+  padding-bottom: 21.4rem;
+  padding-top: 8.8rem;
+  background-image: radial-gradient(210% 180% at top, #fcf8ff 0%, #fcf8ff 50%, transparent 50.1%);
 }
 @media screen and (max-width: 947px) {
   .value-section {
