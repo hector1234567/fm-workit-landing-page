@@ -5,22 +5,22 @@
   &--full {
     color: $Secondary-dark;
     background-color: $Primary;
-    padding: 12px 32px;
+    padding: 1.2rem 3.2rem;
 
     &:hover {
-        background-color: transparent;
-        color: $Primary;
-        box-shadow:inset 0px 0px 0px 3px $Primary;
+      background-color: transparent;
+      color: $Primary;
+      box-shadow: inset 0rem 0rem 0rem 0.3rem $Primary;
     }
   }
 
   &--outline {
     color: $White;
-    border-bottom: 3px solid $Primary;
-    padding-bottom: 2px;
+    border-bottom: 0.3rem solid $Primary;
+    padding-bottom: 0.2rem;
 
     &:hover {
-        color: $Primary;
+      color: $Primary;
     }
   }
 }

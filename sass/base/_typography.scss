@@ -13,18 +13,18 @@ $font-primary: Manrope, sans-serif;
 
 %heading {
   font-family: $font-heading;
-  letter-spacing: 0px;
+  letter-spacing: 0rem;
 }
 
 %text {
   font-family: $font-primary;
-  font-size: 18px;
-  letter-spacing: 0px;
+  font-size: 1.8rem;
+  letter-spacing: 0rem;
 }
 
 .heading-1 {
   @extend %heading;
-  font-size: 80px;
+  font-size: 8rem;
   line-height: 100%;
   font-weight: 500;
 
@@ -35,21 +35,21 @@ $font-primary: Manrope, sans-serif;
   mark {
     display: inline-block;
     background-color: inherit;
-    border-bottom: 3px solid #44ffa1;
+    border-bottom: 0.3rem solid #44ffa1;
     color: inherit;
   }
 }
 
 .heading-2 {
   @extend %heading;
-  font-size: 56px;
+  font-size: 5.6rem;
   line-height: 120%;
   font-weight: 400;
 }
 
 .heading-3 {
   @extend %heading;
-  font-size: 32px;
+  font-size: 3.2rem;
   line-height: 120%;
   font-weight: 500;
 }

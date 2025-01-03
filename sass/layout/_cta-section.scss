@@ -1,25 +1,42 @@
 .cta-section {
-  margin: 112px auto 0 auto;
-  max-width: 1120px;
-  height: 579px;
+  margin: 11.2rem auto 0 auto;
+  max-width: 112rem;
+  height: 57.9rem;
   position: relative;
 
+  @media screen and (max-width: 947px) {
+    margin: 0 4.4rem;
+  }
+
+  @media screen and (max-width: 481px) {
+    height: 71rem;
+  }
+
   &__photo {
-    width: 477px;
-    height: 477px;
-    border-radius: 477px;
+    width: 47.7rem;
+    height: 47.7rem;
+    border-radius: 47.7rem;
     background-image: url("/assets/images/image-founder.webp");
     background-position: center;
     background-size: cover;
     flex-shrink: 0;
+
+    @media screen and (max-width: 947px) {
+      width: 28rem;
+      height: 28rem;
+    }
+
+    @media screen and (max-width: 481px) {
+      margin: 0 auto;
+    }
   }
 
   &__article {
-    width: 730px;
+    width: 73rem;
     background-color: $Secondary-dark;
     color: $White;
-    padding: 64px;
-    margin-left: -87px;
+    padding: 6.4rem;
+    margin-left: -8.7rem;
     flex-shrink: 0;
     position: absolute;
     bottom: 0;
@@ -28,13 +45,25 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 32px;
+    gap: 3.2rem;
+
+    @media screen and (max-width: 947px) {
+      width: 80%;
+    }
+
+    @media screen and (max-width: 481px) {
+      width: 100%;
+    }
   }
 
   &__bg-image {
     position: absolute;
-    top: 423px;
-    right: 107.71px;
-    width: 221px;
+    top: 42.3rem;
+    right: 10.771rem;
+    width: 22.1rem;
+
+    @media screen and (max-width: 481px) {
+      display: none;
+    }
   }
 }

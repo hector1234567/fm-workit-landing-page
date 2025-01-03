@@ -12,11 +12,29 @@
   background-position: -4% 30%, 102% 50%, top;
   background-repeat: no-repeat;
 
+  @media screen and (max-width: 1185px) {
+    background-position: -27% 21%, 112% 51%, top;
+    min-height: 67.6rem;
+  }
+
+  @media screen and (max-width: 650px) {
+    background-image: radial-gradient(
+      210% 160% at top,
+      $Secondary-dark 0%,
+      $Secondary-dark 50%,
+      transparent 50.1%
+    );
+  }
+
   &__nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: $space-700 $space-2000;
+
+    @media screen and (max-width: 1185px) {
+      padding: 3.2rem 4.4rem 5.6rem 4.4rem;
+    }
   }
 
   &__content {
@@ -31,8 +49,13 @@
     margin-top: $space-1100;
     display: flex;
     justify-content: center;
+
     figure img {
-      width: 767px;
+      width: 76.7rem;
+
+      @media screen and (max-width: 749px) {
+        width: 51.481rem;
+      }
     }
   }
 }

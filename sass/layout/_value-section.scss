@@ -2,5 +2,11 @@
   color: $Secondary-dark;
   display: flex;
   justify-content: center;
-  gap: 32px;
+  gap: 3.2rem;
+  margin-bottom: 14.4rem;
+  margin-top: 8.8rem;
+
+  @media screen and (max-width: 947px) {
+    flex-direction: column;
+  }
 }
