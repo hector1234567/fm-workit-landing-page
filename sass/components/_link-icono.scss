@@ -1,0 +1,9 @@
+.link-icono {
+  width: 20px;
+
+  &:hover {
+    img {
+      filter: brightness(0);
+    }
+  }
+}

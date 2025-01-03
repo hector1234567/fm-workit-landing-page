@@ -13,7 +13,6 @@ $font-primary: Manrope, sans-serif;
 
 %heading {
   font-family: $font-heading;
-  font-weight: 500;
   letter-spacing: 0px;
 }
 
@@ -27,6 +26,7 @@ $font-primary: Manrope, sans-serif;
   @extend %heading;
   font-size: 80px;
   line-height: 100%;
+  font-weight: 500;
 
   &--clear {
     color: $White;
@@ -38,26 +38,20 @@ $font-primary: Manrope, sans-serif;
     border-bottom: 3px solid #44ffa1;
     color: inherit;
   }
-
-  &--light {
-    color: $White;
-  }
-
-  &--dark {
-    color: $Secondary-dark;
-  }
 }
 
 .heading-2 {
   @extend %heading;
   font-size: 56px;
   line-height: 120%;
+  font-weight: 400;
 }
 
 .heading-3 {
   @extend %heading;
   font-size: 32px;
   line-height: 120%;
+  font-weight: 500;
 }
 
 .text-regular {

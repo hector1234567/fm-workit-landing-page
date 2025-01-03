@@ -8,7 +8,6 @@
 }
 .heading-3, .heading-2, .heading-1 {
   font-family: Fraunces, serif;
-  font-weight: 500;
   letter-spacing: 0px;
 }
 
@@ -21,6 +20,7 @@
 .heading-1 {
   font-size: 80px;
   line-height: 100%;
+  font-weight: 500;
 }
 .heading-1--clear {
   color: #ffffff;
@@ -31,21 +31,17 @@
   border-bottom: 3px solid #44ffa1;
   color: inherit;
 }
-.heading-1--light {
-  color: #ffffff;
-}
-.heading-1--dark {
-  color: #24053e;
-}
 
 .heading-2 {
   font-size: 56px;
   line-height: 120%;
+  font-weight: 400;
 }
 
 .heading-3 {
   font-size: 32px;
   line-height: 120%;
+  font-weight: 500;
 }
 
 .text-regular {
@@ -77,6 +73,7 @@ body {
 }
 
 .header {
+  color: #ffffff;
   min-height: 100dvh;
   background-image: url("/assets/images/bg-pattern-1.svg"), url("/assets/images/bg-pattern-2.svg"), radial-gradient(210% 160% at top, #24053e 0%, #24053e 50%, transparent 50.1%);
   background-position: -4% 30%, 102% 50%, top;
@@ -105,9 +102,60 @@ body {
 }
 
 .value-section {
+  color: #24053e;
   display: flex;
   justify-content: center;
   gap: 32px;
+}
+
+.cta-section {
+  margin: 112px auto 0 auto;
+  max-width: 1120px;
+  height: 579px;
+  position: relative;
+}
+.cta-section__photo {
+  width: 477px;
+  height: 477px;
+  border-radius: 477px;
+  background-image: url("/assets/images/image-founder.webp");
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+}
+.cta-section__article {
+  width: 730px;
+  background-color: #24053e;
+  color: #ffffff;
+  padding: 64px;
+  margin-left: -87px;
+  flex-shrink: 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+.cta-section__bg-image {
+  position: absolute;
+  top: 423px;
+  right: 107.71px;
+  width: 221px;
+}
+
+.footer {
+  padding: 112px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+}
+.footer__links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
 }
 
 .logo {
@@ -158,6 +206,13 @@ body {
 }
 .card__title {
   margin-bottom: 28px;
+}
+
+.link-icono {
+  width: 20px;
+}
+.link-icono:hover img {
+  filter: brightness(0);
 }
 
 /*# sourceMappingURL=style.css.map */

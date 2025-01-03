@@ -1,0 +1,40 @@
+.cta-section {
+  margin: 112px auto 0 auto;
+  max-width: 1120px;
+  height: 579px;
+  position: relative;
+
+  &__photo {
+    width: 477px;
+    height: 477px;
+    border-radius: 477px;
+    background-image: url("/assets/images/image-founder.webp");
+    background-position: center;
+    background-size: cover;
+    flex-shrink: 0;
+  }
+
+  &__article {
+    width: 730px;
+    background-color: $Secondary-dark;
+    color: $White;
+    padding: 64px;
+    margin-left: -87px;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+  &__bg-image {
+    position: absolute;
+    top: 423px;
+    right: 107.71px;
+    width: 221px;
+  }
+}
