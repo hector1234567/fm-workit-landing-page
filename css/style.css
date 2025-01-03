@@ -150,7 +150,7 @@ body {
   gap: 3.2rem;
   padding-bottom: 21.4rem;
   padding-top: 8.8rem;
-  background-image: radial-gradient(210% 180% at top, #fcf8ff 0%, #fcf8ff 50%, transparent 50.1%);
+  background-image: radial-gradient(210% 198% at top, #fcf8ff 0%, #fcf8ff 50%, transparent 50.1%);
 }
 @media screen and (max-width: 947px) {
   .value-section {
