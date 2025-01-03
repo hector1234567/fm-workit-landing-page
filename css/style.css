@@ -93,15 +93,21 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 40px;
+  gap: 4rem;
 }
 .header__image {
-  margin-top: 88px;
+  margin-top: 8.8rem;
   display: flex;
   justify-content: center;
 }
 .header__image figure img {
   width: 767px;
+}
+
+.value-section {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
 }
 
 .logo {
@@ -129,6 +135,29 @@ body {
 }
 .button--outline:hover {
   color: #44ffa1;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 352px;
+  margin-bottom: 144px;
+  margin-top: 88px;
+}
+.card__number {
+  width: 56px;
+  height: 56px;
+  border-radius: 56px;
+  border: 1px solid #24053e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 56px;
+}
+.card__title {
+  margin-bottom: 28px;
 }
 
 /*# sourceMappingURL=style.css.map */

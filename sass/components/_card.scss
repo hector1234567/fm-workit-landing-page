@@ -1,0 +1,26 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 352px;
+    margin-bottom: 144px;
+    margin-top: 88px;
+
+    &__number {
+        width: 56px;
+        height: 56px;
+        border-radius: 56px;
+        border: 1px solid $Secondary-dark;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-bottom: 56px;
+    }
+
+    &__title {
+        margin-bottom: 28px;
+    }
+}
