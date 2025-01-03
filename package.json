@@ -1,0 +1,14 @@
+{
+  "name": "workit-landing-page",
+  "version": "1.0.0",
+  "description": "Frontend Mentor challenge",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "sass sass/main.scss css/style.css -w"
+  },
+  "author": "Hector B",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.83.0"
+  }
+}

@@ -1,0 +1,37 @@
+.header {
+  min-height: 100dvh;
+  background-image: url("/assets/images/bg-pattern-1.svg"),
+    url("/assets/images/bg-pattern-2.svg"),
+    radial-gradient(
+      210% 160% at top,
+      $Secondary-dark 0%,
+      $Secondary-dark 50%,
+      transparent 50.1%
+    );
+  background-position: -4% 30%, 102% 50%, top;
+  background-repeat: no-repeat;
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: $space-700 $space-2000;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+  }
+
+  &__image {
+    margin-top: 88px;
+    display: flex;
+    justify-content: center;
+    figure img {
+      width: 767px;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.button {
+  display: inline-block;
+  text-decoration: none;
+
+  &--full {
+    color: $Secondary-dark;
+    background-color: $Primary;
+    padding: 12px 32px;
+
+    &:hover {
+        background-color: transparent;
+        color: $Primary;
+        box-shadow:inset 0px 0px 0px 3px $Primary;
+    }
+  }
+
+  &--outline {
+    color: $White;
+    border-bottom: 3px solid $Primary;
+    padding-bottom: 2px;
+
+    &:hover {
+        color: $Primary;
+    }
+  }
+}
